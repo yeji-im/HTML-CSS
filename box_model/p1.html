@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P1 - Card Padding</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; margin: 0; padding: 24px; line-height: 1.5; }
+    .panel { max-width: 720px; margin: 0 auto; border: 1px solid #eee; padding: 16px; border-radius: 10px; }
+    .desc { color: #444; font-size: 14px; }
+
+    .card {
+      border: 2px solid #333;
+      background: #f5f5f5;
+
+      /* TODO:
+        카드 콘텐츠(h3, p)가 border에서 정확히 16px 떨어지게 만들기
+        (힌트: margin 말고 padding)
+      */
+    }
+
+    .card h3 { margin: 0; }
+    .card p  { margin: 0; }
+  </style>
+</head>
+<body>
+  <main class="panel">
+    <h1>문제 1) 카드 내부 여백 16px</h1>
+    <p class="desc">
+      요구사항: 카드 콘텐츠(제목/문단)가 테두리(border)에서 정확히 16px 떨어지도록 만드세요.
+      (HTML 수정 금지)
+    </p>
+
+    <div class="card">
+      <h3>공지 제목</h3>
+      <p>공지 내용입니다. 카드 내부 여백을 정확히 맞춰보세요.</p>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P2 - Card Spacing</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; margin: 0; padding: 24px; line-height: 1.5; }
+    .panel { max-width: 720px; margin: 0 auto; border: 1px solid #eee; padding: 16px; border-radius: 10px; }
+    .desc { color: #444; font-size: 14px; }
+
+    .card {
+      border: 2px solid #333;
+      background: #f5f5f5;
+      padding: 12px;
+      /* TODO:
+        카드와 카드 사이 간격이 항상 12px이 되도록 만들기
+        (힌트: 바깥 간격은 margin)
+      */
+    }
+  </style>
+</head>
+<body>
+  <main class="panel">
+    <h1>문제 2) 카드 간 간격 12px</h1>
+    <p class="desc">
+      요구사항: 카드와 카드 사이 간격이 항상 12px이 되도록 만드세요.
+      (HTML 수정 금지)
+    </p>
+
+    <div class="list">
+      <div class="card">카드 1</div>
+      <div class="card">카드 2</div>
+      <div class="card">카드 3</div>
+    </div>
+  </main>
+</body>
+</html>

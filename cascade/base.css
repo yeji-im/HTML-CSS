@@ -1,0 +1,10 @@
+.notice-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  color: #333;
+}
+
+.notice-card h2 {
+  font-size: 18px;
+  color: navy;
+}
